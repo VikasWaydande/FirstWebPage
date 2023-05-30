@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROLLS ROYCE</title>
+    <style>
+        .container {
+            width: 60%;
+            height: auto;
+            background-color:rgb(241, 17, 207);
+            color: rgb(149, 62, 62);
+            margin: 260px;
+            border: 2px solid gray;
+            border-radius: 20px;
+        }
+        img {
+    
+            height: 150px;
+            width: 150px;
+            margin-left: 15px;
+            margin-top: 15px;
+        }
+        h1 {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 40px;
+            font-weight: 700;
+            margin-top: 20px;
+            margin-left: 20px;
+            color: rgb(9, 9, 186);
+        }
+        p{
+            margin: 0px 0px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 18px;
+            display: inline-block;
+            width: 40%;
+            height: auto;
+            box-sizing: border-box;
+
+        }
+        .info{
+            color: blue;
+            
+        }
+        button{
+            margin: 10px 10px;
+            padding: 10px;
+            background-color:rgb(77, 241, 77);
+            color: rgb(242, 43, 43);
+            font-weight: 500;
+            font-size: 20px;
+            border: none;
+            border-radius: 20px;
+        }
+        h2{
+            color: black;
+        }
+        form{
+            color: rgb(16, 18, 5);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="rolls_royce.jpg" alt="logo">
+        <p class="info">
+            <h2> Registration Form</h2>
+    <form action="test">
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" placeholder="Enter First Name" id="fname">
+      
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" placeholder="Enter Last Name" id="lname">
+        <br><br>
+        <label for="uname">UserName:</label>
+        <input type="text" name="uname" placeholder="@asddfa" id="uname">
+       
+        <label for="email">email id:</label>
+        <input type="email" name="email" placeholder="abc3113@gmail.com" id="email">
+        <br><br>
+        <label for="dob">Date Of Birth:</label>
+        <input type="date" name="dob" id="dob">
+        <label for="phone">phone:</label>
+        <input type="tel" name="phone" placeholder="1234567890" id="phone">
+        <br><br>
+        <label for="profile">Profile Picture:</label>
+        <input type="file" name="profile" id="profile">        
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age">
+        <br><br>
+
+        Languages Known:
+        <input type="checkbox" name="lang" id="English" value="English" checked>
+        <label for="English">English</label>
+        <input type="checkbox" name="lang" id="Hindi" value="Hindi">
+        <label for="Hindi">Hindi</label>
+        <input type="checkbox" name="lang" id="Marathi" value="Marathi">
+        <label for="Marathi">Marathi</label>
+        <br><br>
+
+        <label for="Add">RTO Address:</label>
+        <select name="Address" id="Add">
+            <option value="Akluj">Akluj</option>
+            <option value="Baramati">Baramati</option>
+            <option value="Pandharpur">Pandharpur</option>
+            <option value="Solapur">Solapur</option>
+
+        </select>
+
+        <label for="Password"> Password</label>
+        <input type="password" name="password" placeholder="Password Here">
+        <br> <br>
+        <button type="submit"> Place Order</button>
+        <button type="reset"> Reset</button>
+
+    </form>
+    </div>
+
+</body>
+
+</html>
